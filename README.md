@@ -16,3 +16,5 @@ I have used AMS1117 for both 3.3 and 5V regulation and that seems to work well w
 
 ##License
 [CERN OHL V1.2](http://www.ohwr.org/licenses/cern-ohl/v1.2)
+
+![image](/Dumper3D_001.png)
