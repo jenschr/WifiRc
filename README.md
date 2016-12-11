@@ -5,7 +5,7 @@ Can run off USB (no motor) or 7.4 or 11.1V batteries (depending on what your mot
 
 The module has been produced and tested, but not yet mounted in a model. See pictures of the reflowed and soldered board [here](http://jcprojects.tumblr.com/post/149121660034/my-second-dev-board-based-on-the-particleio-p1) and a short video from testing [here](http://jcprojects.tumblr.com/post/154342641139/so-much-blink-all-pins-mapped-out-and-tested-i).
 
-[[https://github.com/jenschr/WifiRc/blob/master/Pinout_Dumper001.png|alt=pinout]]
+![Alt text](/blob/master/Pinout_Dumper001.png?raw=true "Pinout")
 
 ##BOM
 The bill of materials can be found as a .csv file in this repository. The core part is the P1 module (USI WM-N-BM-14) that you can pick up in a [10-pack from the Particle store](https://store.particle.io/products/p1), pre-flashed with the Particle firmware.
