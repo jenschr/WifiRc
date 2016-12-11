@@ -13,6 +13,7 @@ The [bill of materials](/Dumper001/Dumper001.csv) can be found as a .csv file in
 I have used AMS1117 for both 3.3 and 5V regulation and that seems to work well without any signs of overheating. The L9110 motor drivers are weak, but will do the trick for small motors.
 
 ##Errata* The pin marked D6 is UART2_CTS,(pin 30) accessable as WKP.* The pin marked as SS is DAC (pin 24). A2 is the actual SS pin for SPI1.
+Both of these pins work for digital IO, but use the constant WKP to access the D6 pin and DAC to access the pin marked SS.
 
 ##License
 [CERN OHL V1.2](http://www.ohwr.org/licenses/cern-ohl/v1.2)
