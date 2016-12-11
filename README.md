@@ -8,7 +8,9 @@ The module has been produced and tested, but not yet mounted in a model. See pic
 ![Alt text](/Pinout_Dumper001.png?raw=true "Pinout")
 
 ##BOM
-The bill of materials can be found as a .csv file in this repository. The core part is the P1 module (USI WM-N-BM-14) that you can pick up in a [10-pack from the Particle store](https://store.particle.io/products/p1), pre-flashed with the Particle firmware.
+The [bill of materials](/Dumper001/Dumper001.csv) can be found as a .csv file in this repository. The core part is the P1 module (USI WM-N-BM-14) that you can pick up in a [10-pack from the Particle store](https://store.particle.io/products/p1), pre-flashed with the Particle firmware.
+
+I have used AMS1117 for both 3.3 and 5V regulation and that seems to work well without any signs of overheating. The L9110 motor drivers are weak, but will do the trick for small motors.
 
 ##Errata* The pin marked D6 is UART2_CTS,(pin 30) accessable as WKP.* The pin marked as SS is DAC (pin 24). A2 is the actual SS pin for SPI1.
 
